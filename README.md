@@ -20,8 +20,8 @@ No build step. Plain HTML and CSS served straight from GitHub Pages.
 2. **Add the remote and push** from this directory:
 
    ```bash
-   cd "/Users/devinwright/Development/Breaker Map Site"
-   git remote add origin git@github.com:devinwright/breaker-map-site.git
+   cd "/Users/13djwright/Development/Breaker Map Site"
+   git remote add origin https://github.com/13djwright/breaker-map-site.git
    git push -u origin main
    ```
 
@@ -35,14 +35,14 @@ No build step. Plain HTML and CSS served straight from GitHub Pages.
    name it will be:
 
    ```
-   https://devinwright.github.io/breaker-map-site/
+   https://13djwright.github.io/breaker-map-site/
    ```
 
    With pages reachable at:
 
-   - Marketing: `https://devinwright.github.io/breaker-map-site/`
-   - Privacy:   `https://devinwright.github.io/breaker-map-site/privacy.html`
-   - Support:   `https://devinwright.github.io/breaker-map-site/support.html`
+   - Marketing: `https://13djwright.github.io/breaker-map-site/`
+   - Privacy:   `https://13djwright.github.io/breaker-map-site/privacy.html`
+   - Support:   `https://13djwright.github.io/breaker-map-site/support.html`
 
 5. **Update the iOS app**: in the Breaker Map repo, edit
    `BreakerMap/App/AppLinks.swift` to point at the three URLs above.
@@ -64,7 +64,7 @@ No build step. Plain HTML and CSS served straight from GitHub Pages.
   Whatever you pick must be reachable. App Review will email it.
 
 - [ ] **Confirm GitHub handle**. The instructions above assume your
-  handle is `devinwright`. If it's different, adjust the remote URL
+  handle is `13djwright`. If it's different, adjust the remote URL
   in step 2 and the live URL throughout.
 
 - [ ] **Confirm repo name**. Defaults to `breaker-map-site`. If you
@@ -78,7 +78,7 @@ No build step. Plain HTML and CSS served straight from GitHub Pages.
 ## Custom domain (optional, post-launch)
 
 If you register a domain later (e.g. `breakermap.app`), point a CNAME
-record at `devinwright.github.io` and add a `CNAME` file to this repo
+record at `13djwright.github.io` and add a `CNAME` file to this repo
 containing the domain. GitHub Pages will serve from your domain over
 HTTPS automatically.
 
