@@ -51,17 +51,9 @@ No build step. Plain HTML and CSS served straight from GitHub Pages.
 
 ## Before going live — required edits
 
-- [ ] **Contact email**. Every page currently uses
-  `support@breakermap.app` as a placeholder. Pick one of:
-
-  - Register the `breakermap.app` domain (or `.dev`, `.io`, etc.) and
-    set up email forwarding to your real inbox.
-  - Create a dedicated Gmail address such as
-    `breakermap.support@gmail.com` and search-replace
-    `support@breakermap.app` in all three HTML files.
-  - Use any other personal address you're comfortable having public.
-
-  Whatever you pick must be reachable. App Review will email it.
+- [x] **Contact email**. Pages link to
+  `breakermap.support@gmail.com`. Make sure this inbox is monitored
+  — App Review will email it, and so will users reporting bugs.
 
 - [ ] **Confirm GitHub handle**. The instructions above assume your
   handle is `13djwright`. If it's different, adjust the remote URL
